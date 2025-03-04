@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="3">
+	
+  <test name="Test1">
+   			 <classes>
+      						<class name="ExplorePlaywright.HandleWebTable"/>
+    		</classes>
+    </test>
+    
+    <test name="Test2">
+			    <classes>
+					 <class name="ExplorePlaywright.HandleMultipleWindow"/>
+				</classes>
+	</test>
+	
+	<test name="Test3">
+				<classes>
+					 <class name="ExplorePlaywright.HandleAlertPlaywright"/>
+				</classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

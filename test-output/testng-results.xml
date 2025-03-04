@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-28T11:25:09 IST" name="Default suite" finished-at="2025-02-28T11:25:25 IST" duration-ms="16163">
+    <groups>
+    </groups>
+    <test started-at="2025-02-28T11:25:09 IST" name="Default test" finished-at="2025-02-28T11:25:25 IST" duration-ms="16163">
+      <class name="ExplorePlaywright.NaukriResumeUpdate">
+        <test-method signature="uploadResume()[pri:0, instance:ExplorePlaywright.NaukriResumeUpdate@402c4085]" started-at="2025-02-28T11:25:09 IST" name="uploadResume" finished-at="2025-02-28T11:25:25 IST" duration-ms="16041" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uploadResume -->
+      </class> <!-- ExplorePlaywright.NaukriResumeUpdate -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
