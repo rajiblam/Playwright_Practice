@@ -28,8 +28,8 @@ public class firstClassPW
 			context = browser.newContext(new Browser.NewContextOptions().setViewportSize(1366,633));
 			page = context.newPage();
 			page.navigate("https://one.omind.ai/login");
-			page.locator("xpath=//input[@name='userId']").fill("prodqa@omind.com");
-			page.locator("xpath=//input[@name='password']").fill("Password@123");
+			page.locator("xpath=//input[@name='userId']").fill("demo@gmail.com");
+			page.locator("xpath=//input[@name='password']").fill("123");
 			page.locator("xpath=//button[text()='Login']").click();
 			
 	}
